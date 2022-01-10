@@ -5,6 +5,10 @@
   background-color: #f9fafb;
 }
 
+.home-pins-wrapper {
+  flex-grow: 1;
+}
+
 .home-desktop-bar {
   display: none;
   min-height: 100vh;

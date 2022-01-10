@@ -1,0 +1,21 @@
+.pins-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pins-sec-wrap {
+  background-color: rgb(249 250 251);
+}
+
+.pins-thi-wrap {
+  flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+  .pins-wrap {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
