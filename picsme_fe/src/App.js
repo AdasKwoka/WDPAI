@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route, useNavigate } from 'react-router-dom';
 import Login from './components/Login/Login';
-import Home from './containers/Home';
+import Home from './containers/Home/Home';
 
 const App = () => {
   return (

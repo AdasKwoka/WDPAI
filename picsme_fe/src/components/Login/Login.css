@@ -35,6 +35,10 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.login-logo-wrap {
+  margin-bottom: 1rem;
+}
+
 .login-google-wrap {
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.7), 0 0 13px rgba(0, 0, 0, 0.4);
 }
