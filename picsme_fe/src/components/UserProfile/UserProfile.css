@@ -1,0 +1,120 @@
+.user-profile-wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.5rem;
+}
+
+.user-profile-sec-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1.25rem;
+}
+
+.user-profile-thi-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.75rem;
+}
+
+.user-profile-fou-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-profile-image {
+  width: 100%;
+  height: 370px;
+  box-shadow: 0 10px 15px -3px rgb(0, 0, 0, 0.1),
+    0 4px 6px -4px rgb(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.user-profile-user-image {
+  width: 5rem;
+  height: 5rem;
+  margin-top: -2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgb(0, 0, 0, 0.1),
+    0 8px 10px -6px rgb(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.user-profile-title {
+  margin-top: 0.75px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.user-profile-logout {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.user-profile-logout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px -1px rgb(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.user-profile-btns-wrap {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.user-profile-created-btn {
+  width: 5rem;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  margin-right: 1rem;
+  background-color: #fafafa;
+  color: #000;
+  cursor: pointer;
+}
+
+.user-profile-created-btn.active {
+  margin-right: 0;
+  color: #fff;
+  background-color: rgb(239 68 68);
+}
+
+.user-profile-pins-wrapper {
+  padding: 0 0.5rem;
+}
+
+.user-profile-pins-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 1536px) {
+  .user-profile-image {
+    height: 510px;
+  }
+}
