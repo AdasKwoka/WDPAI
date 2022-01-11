@@ -1,0 +1,19 @@
+.masonary-wrap {
+  display: flex;
+  animation: slide-fwd 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.masonary-pin {
+  width: 100%;
+}
+
+@keyframes slide-fwd {
+  0% {
+    -webkit-transform: translateZ(0px);
+    transform: translateZ(0px);
+  }
+  100% {
+    -webkit-transform: translateZ(160px);
+    transform: translateZ(160px);
+  }
+}
