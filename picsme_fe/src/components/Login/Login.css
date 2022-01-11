@@ -33,7 +33,7 @@
 }
 
 .login-logo-wrap {
-  margin-bottom: 1rem;
+  padding: 1.25rem;
 }
 
 .login-google-wrap {
@@ -41,12 +41,12 @@
 }
 
 .login-google-button {
-  background-color: #d0d0d0;
+  background-color: #fbf8f9;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
   border: none;
   outline: none;
   cursor: pointer;

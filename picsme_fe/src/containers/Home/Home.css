@@ -2,17 +2,14 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #f9fafb;
-}
-
-.home-pins-wrapper {
-  flex-grow: 1;
+  background-color: rgb(249 250 251);
 }
 
 .home-desktop-bar {
   display: none;
   min-height: 100vh;
   flex-direction: initial;
+  flex: 0 1 auto;
 }
 
 .home-mobile-bar {
@@ -25,18 +22,21 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
-  box-shadow: 0 3px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0, 0, 0, 0.1);
 }
 
 .home-sidebar {
   display: flex;
   position: fixed;
   top: 0;
-  left: -75%;
-  width: 75%;
+  left: -80%;
+  width: 80%;
   height: 100vh;
   background-color: #fff;
+  box-shadow: 0 4px 6px -1px rgb(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 10;
 }
 
 .home-sidebar.active {
@@ -49,9 +49,18 @@
 
 .home-close-bar {
   position: absolute;
-  top: 0;
-  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem;
   cursor: pointer;
+}
+
+.home-pins-wrapper {
+  padding-bottom: 0.5rem;
+  flex: 1 1 0%;
+  height: 100vh;
 }
 
 @media (min-width: 768px) {

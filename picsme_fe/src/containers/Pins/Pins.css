@@ -1,8 +1,6 @@
 .pins-wrap {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pins-sec-wrap {
@@ -10,12 +8,12 @@
 }
 
 .pins-thi-wrap {
-  flex-grow: 1;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
   .pins-wrap {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }

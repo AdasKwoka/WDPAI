@@ -6,3 +6,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.spinner-spinComp {
+  margin: 1.25rem;
+}
+
+.spinner-message {
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-align: center;
+}

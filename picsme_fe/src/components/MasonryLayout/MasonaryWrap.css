@@ -4,7 +4,7 @@
 }
 
 .masonary-pin {
-  width: 100%;
+  width: max-content;
 }
 
 @keyframes slide-fwd {

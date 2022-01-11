@@ -1,5 +1,5 @@
 .pin-wrapper {
-  margin: 20px;
+  margin: 0.5rem;
 }
 
 .pin-sec-wrap {
@@ -80,7 +80,12 @@
 }
 
 .pin-delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
   color: #000;
   background-color: #fff;
 }
@@ -133,5 +138,6 @@
 }
 
 .pin-image {
+  width: 100%;
   border-radius: 0.5rem;
 }

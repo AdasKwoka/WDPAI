@@ -46,15 +46,15 @@ const Home = () => {
             <img src={user?.image ? user.image : "https://img.icons8.com/external-dreamstale-lineal-dreamstale/50/000000/external-avatar-avatars-dreamstale-lineal-dreamstale.png"} alt="logo" width='36px'/>
           </Link>
         </div>
-      </div>
-      {toggleSidebar && (
+        {toggleSidebar && (
         <div className={`home-sidebar ${toggleSidebar && "active"}`}>
           <div className='home-close-bar'>
             <AiFillCloseCircle fontSize={30} onClick={() => setToggleSidebar(false)}/>
           </div>
           <Sidebar user={user && user} closeToggle={setToggleSidebar}/>
         </div>
-      )}
+        )}
+      </div>
       <div className='home-pins-wrapper' ref={scrollRef}>
         <Routes>
           <Route path="/user-profile/:userId" element={<UserProfile />} />

@@ -11,7 +11,8 @@ const Pins = ({ user }) => {
     <div className='pins-wrap'>
       <div className='pins-sec-wrap'>
         <NavBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} user={user}/>
-        <div className='pins-thi-wrap'>
+      </div>
+      <div className='pins-thi-wrap'>
           <Routes>
             <Route path="/" element={<Feed />} />
             <Route path="/category/:categoryId" element={<Feed />} />
@@ -20,7 +21,6 @@ const Pins = ({ user }) => {
             <Route path="/search" element={<Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />} />
           </Routes>
         </div>
-      </div>
     </div>
   )
 }

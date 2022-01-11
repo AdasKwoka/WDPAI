@@ -30,7 +30,7 @@ const Sidebar = ({ user, closeToggle }) => {
             onClick={handleCloseSidebar}
           >
             <RiHomeFill />
-            <span className='sidebar-item-indent'>home</span>
+            home
           </NavLink>
           <h3 className='sidebar-nav-header'>
             Discover categories
@@ -55,7 +55,7 @@ const Sidebar = ({ user, closeToggle }) => {
           onClick={handleCloseSidebar}
         >
           <img src={user.image ? user.image : "https://img.icons8.com/external-dreamstale-lineal-dreamstale/50/000000/external-avatar-avatars-dreamstale-lineal-dreamstale.png"} alt="user" className='sidebar-user-photo'/>
-          <p className='sidebar-item-indent sidebar-username'>{user.userName}</p>
+          <p>{user.userName}</p>
         </Link>
       )}
     </div>
