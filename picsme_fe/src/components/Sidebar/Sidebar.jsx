@@ -6,13 +6,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 import logo from '../../assets/logo.png';
 import './Sidebar.css';
 
-const categories = [
-  {name: "animals"},
-  {name: "wallpapers"},
-  {name: "photography"},
-  {name: "cars"},
-  {name: "Other"},
-]
+import { categories } from '../../utils/data';
 
 const Sidebar = ({ user, closeToggle }) => {
   console.log(user)
@@ -47,7 +41,8 @@ const Sidebar = ({ user, closeToggle }) => {
               className={`sidebar-nav-item ${({ isActive }) => isActive && "active"}`}
               onClick={handleCloseSidebar}
               key={category.name}
-            >
+            > 
+              <img src={category.image} className='sidebar-category-image' alt='category-pic'/>
               {category.name}
             </NavLink>
           ))}
