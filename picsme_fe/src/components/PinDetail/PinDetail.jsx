@@ -71,7 +71,7 @@ const PinDetail = ({ user }) => {
     <>
       <div className='pin-detail-wrap'>
         <div className='pin-detail-sec-wrap'>
-          <img src={pinDetail?.image && urlFor(pinDetail.image).url()} alt='pin-detail' className='pin-detail-image' />
+          <img src={pinDetail?.image && urlFor(pinDetail.image).width(250).url()} alt='pin-detail' className='pin-detail-image' />
         </div>
         <div className='pin-detail-thi-wrap'>
           <div className='pin-detail-fou-wrap'>

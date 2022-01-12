@@ -13,7 +13,7 @@ import './Login.css';
 const Login = () => {
   const navigate = useNavigate();
   const responseGoogle = (response) => {
-    localStorage.setItem('user', JSON.stringify(response.profileObj));
+    localStorage.setItem('user', JSON.stringify(response?.profileObj));
 
     const { name, googleId, imageUrl } = response?.profileObj;
 
