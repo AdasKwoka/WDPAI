@@ -52,7 +52,6 @@ const UserProfile = () => {
         })
     }
   }, [text, userId])
-  console.log(pins)
   if(!user) {
     return <Spinner message='Loading profile...' />
   }

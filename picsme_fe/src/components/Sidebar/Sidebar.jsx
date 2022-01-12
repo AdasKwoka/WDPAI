@@ -9,7 +9,6 @@ import './Sidebar.css';
 import { categories } from '../../utils/data';
 
 const Sidebar = ({ user, closeToggle }) => {
-  console.log(user)
   const handleCloseSidebar = () => {
     if(closeToggle) closeToggle(false);
   }
